@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Love Story 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NETFLIX INTRO -->
+<div id="intro" class="intro">
+  <div class="netflix-logo">N</div>
+  <h1 class="intro-text">A Valentine’s Day Original</h1>
+</div>
+
+<!-- QUIZ -->
+<div id="quiz" class="hidden">
+  <h2 class="title">Me or You? 💕</h2>
+  <div id="question"></div>
+  <div class="buttons">
+    <button onclick="answer('Me')">Me 😌</button>
+    <button onclick="answer('You')">You 😎</button>
+  </div>
+</div>
+
+<!-- FINAL PROPOSAL -->
+<div id="final" class="hidden">
+  <h2>Will you be my Valentine? 💘</h2>
+  <button class="yes" onclick="sayYes()">YES 💖</button>
+  <button class="no" onclick="sayNo()">NO 🙃</button>
+</div>
+
+<!-- PHOTO -->
+<div id="photo" class="hidden">
+  <h2>Us 🐣💑</h2>
+  <img src="images/us.jpg" alt="Us together 💖">
+  <p>Can’t say no… the system already decided 💞</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
